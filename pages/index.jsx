@@ -22,8 +22,7 @@ const Page = () => {
         borderRadius="lg"
         mb={6}
         mt={3}
-        p={3}
-      >
+        p={3}>
         Hello, I&apos;m full-stack developer based in Ecuador!
       </Box>
       <Box display={{ md: 'flex' }}>
@@ -37,8 +36,7 @@ const Page = () => {
           align="center"
           flexShrink={0}
           ml={{ md: 6 }}
-          mt={{ base: 4, md: 0 }}
-        >
+          mt={{ base: 4, md: 0 }}>
           <Image
             alt="Profile Image"
             borderColor="whiteAlpha.800"

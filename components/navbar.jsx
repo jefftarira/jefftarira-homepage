@@ -27,15 +27,14 @@ const LinkItem = ({ href, path, children }) => {
       <Link
         bg={active ? 'glassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
-        p={2}
-      >
+        p={2}>
         {children}
       </Link>
     </NextLink>
   );
 };
 
-const Navbar = (props) => {
+const Navbar = props => {
   const { path } = props;
 
   return (
@@ -46,16 +45,14 @@ const Navbar = (props) => {
       style={{ backdropFilter: 'blur(10px)' }}
       w="100%"
       zIndex={1}
-      {...props}
-    >
+      {...props}>
       <Container
         align="center"
         display="flex"
         justify="space-between"
         maxW="container.md"
         p={2}
-        wrap="wrap"
-      >
+        wrap="wrap">
         <Flex align="center" mr={5}>
           <Heading as="h1" letterSpacing={'tighter'} size="lg">
             <Logo />
@@ -67,8 +64,7 @@ const Navbar = (props) => {
           display={{ base: 'none', md: 'flex' }}
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
-          width={{ base: 'full', md: 'auto' }}
-        >
+          width={{ base: 'full', md: 'auto' }}>
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
@@ -82,8 +78,7 @@ const Navbar = (props) => {
             path={path}
             pl={2}
             style={{ gap: 4 }}
-            target="_blank"
-          >
+            target="_blank">
             Source
           </LinkItem>
         </Stack>
