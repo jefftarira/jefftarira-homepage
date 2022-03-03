@@ -13,8 +13,7 @@ const ThemeToggleButton = () => {
         exit={{ y: 20, opacity: 0 }}
         initial={{ y: -20, opacity: 0 }}
         style={{ display: 'inline-block' }}
-        transition={{ duration: 0.2 }}
-      >
+        transition={{ duration: 0.2 }}>
         <IconButton
           aria-label="Toggle theme"
           colorScheme={useColorModeValue('purple', 'orange')}

@@ -10,9 +10,7 @@ const Main = ({ children, router }) => {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>Jeff Tarira - Homepage</title>
       </Head>
-
       <Navbar path={router.asPath} />
-
       <Container maxW="container.md" pt={14}>
         {children}
       </Container>
