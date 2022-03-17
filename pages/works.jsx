@@ -14,21 +14,21 @@ const Works = () => {
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem
+          {/* <WorkGridItem
             id="inkdrop"
             thumbnail={thumbnailInkdrop}
             title="Inkdrop">
             A markdown note-taking app with 100+ plugins, cross-platform and
             encrypted data sync support
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
         <Section>
-          <WorkGridItem
+          {/* <WorkGridItem
             id="walknote"
             thumbnail={thumbWalknote}
             title="Walknote">
             Music recomendation app for iOS
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
       </SimpleGrid>
     </Container>
